@@ -1,0 +1,4 @@
+﻿Created on November 19, 2018
+
+11/19/2017-8:06pm -- Added ApplicationUser, Message, ContactUs and ViewCheck classes, complete with code. 
+                     Added Gender, NotificationType, ContactWho and SubscriptionLevel enums

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Application.UI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using Application.UI.Models;
+using System.Diagnostics;
 
 namespace Application.UI.Controllers
 {

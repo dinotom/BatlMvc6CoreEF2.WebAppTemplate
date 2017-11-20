@@ -1,0 +1,7 @@
+﻿Created on November 19, 2018
+
+11/19/2017 9:19:00.00PM -- Refactored all view models to a new ViewModels folder.
+                           Removed everything in the default web app Data folder (ApplicationDbContext and migrations folder)
+						   and relocated to Infrastructure project. Fixed all errors and rebuilt solution.
+
+11/19/2017 9:24:00.00PM -- Moved ApplicationUser to DomainClasses project where it belongs. Fixed all errors in UI and rebuilt the solution.

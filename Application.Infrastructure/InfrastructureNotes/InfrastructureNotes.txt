@@ -1,0 +1,9 @@
+﻿Created on November 19, 2018
+
+11/19/2017 8:06:00.00PM -- Added ApplicationUser, Message, ContactUs and ViewCheck classes. 
+                     Added Gender, NotificationType, ContactWho and SubscriptionLevel enums
+
+11/19/2017 9:02:00.00PM -- Refactored ApplicationUser to Domain project and ApplicationDbContext to this project
+					 Added and restored all necessary Entity Framework and Identity packages. Re-built solution.
+
+11/19/2017 9:32:00.00PM -- Added entity configurations for all DomainClasses so migration for InitialCreate can take place.

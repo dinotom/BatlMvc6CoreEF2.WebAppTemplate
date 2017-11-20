@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
+﻿using Application.DomainClasses.Classes;
+using Application.UI.Services;
+using Application.UI.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Application.UI.Models;
-using Application.UI.Models.AccountViewModels;
-using Application.UI.Services;
+using System;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace Application.UI.Controllers
 {
@@ -430,7 +426,6 @@ namespace Application.UI.Controllers
             return View();
         }
 
-
         [HttpGet]
         public IActionResult AccessDenied()
         {
@@ -459,6 +454,6 @@ namespace Application.UI.Controllers
             }
         }
 
-        #endregion
+        #endregion Helpers
     }
 }
